@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/static/css/welcome.css">
+    <title>Welcome</title>
+  </head>
+
+<style>
+
+body{
+    background-image: url("http://stage.visitcalifornia.com/sites/default/files/styles/welcome_image/public/vc_spotlighttemeculavalley_module6_winecountry_st_rf_695671832_1280x640.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-size: 3vw;
+    text-align: center;
+    margin-bottom: 3vw;
+}
+
+#outer{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+#inner{
+    margin-left: 0vw;
+}
+
+p{
+    border: 2px solid orange;
+    border-radius: 2vw;
+    width: 25vw;
+    padding-top: 3vw;
+    font-size: 3.5vw;
+    padding-bottom: -2vw;
+    height: 12vw;
+    text-align: center;
+    color:white;
+    background-color:rgba(255, 255, 255, 0.575);
+    color: black;
+}
+
+p:hover{
+    color: green;
+    box-shadow: 5px;
+}
+
+.in{
+    font-size: 3vw;
+    float: left;
+    margin-left: 10vw;
+}
+
+</style>
+  <body>
+    <h1> Welcome {{name}} </h1>
+    <div id="outer">
+        <div id="inner">
+            <div class="in">
+            <a href = "/cattle" > <p onclick="livestock.html">Livestock Monitoring</p></a>
+               <p onclick="AGV.html">Automatic Guided Vehicle</p>
+            </div>
+            <div class="in">
+                <p onclick="drone.html">Drone Monitoring</p>
+            <a href = "/fieldcare"> <p onclick="field.html">Field Care</p></a>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  </body>
+</html>

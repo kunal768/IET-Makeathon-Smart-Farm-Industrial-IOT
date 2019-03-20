@@ -1,0 +1,137 @@
+body{
+    background-image: url("/static/Images/loginbg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p{
+    text-align: center;
+    font-size: 2vw;
+}
+
+#heading{
+    font-size: 5vw;
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-top:-1vw;
+}
+
+#sub{
+    background-color:rgba(255, 255, 255, 0.39);
+    width:40%;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 2vw;
+    margin-top: -6vw;
+}
+
+#login{
+    text-align: center;
+    font-size: 4vw;
+    color: green;
+    margin-top: -0.3vw;
+}
+
+.head{
+    font-size:2vw;
+    margin: 1vw;
+}
+
+form{
+    margin-left:4vw;
+    margin-top: -4vw;
+    margin-right: 4vw;
+    border: 3px solid #f1f1f1;
+    border-radius: 1vw;
+    padding: 1vw;
+    height: 22vw;
+}
+
+input{
+    width: 15vw;
+    height:3vw;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius:3vw;
+  }
+
+button{
+    background-color: rgb(31, 187, 37);
+    color: white;
+    margin-top:2vw;
+    margin-bottom: 2vw;
+    padding: 1vw 20px;
+    border: none;
+    border-radius:2vw;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1.3vw;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+
+
+
+input, .btn {
+  width: 30%;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  margin: 5px 0;
+  opacity: 1;/*
+  display: inline-block;*/
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; /* remove underline from anchors */
+  float: left;
+}
+
+input:hover, .btn:hover {
+  opacity: 0.85;
+}
+
+/* add appropriate colors to fb, twitter and google buttons */
+.fb {
+  background-color: #3B5998;
+  color: white;
+  text-align: center;
+  font-size: 1.5vw;
+}
+
+.google {
+  margin-left: 3vw;
+  background-color: #dd4b39;
+  color: white;
+  text-align: center;
+  font-size: 1.5vw;
+}
+
+/* style the submit button */
+input[type=submit]{
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Two-column layout */
+.col {
+  width: 80%;
+  padding: 0 50px;
+  margin-top: 6px;
+}

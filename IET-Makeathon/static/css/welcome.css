@@ -1,0 +1,12 @@
+#outer{
+  background-color: red;
+}
+
+.inner{
+  background-color: blue;
+}
+
+a{
+  height: 5vw;
+  width: 5vw;
+}

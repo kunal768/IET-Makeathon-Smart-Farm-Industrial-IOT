@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>LOGIN</title>
+
+   <link rel="stylesheet" href="{{url_for('static',filename ='css/login.css')}}">
+  </head>
+  <body>
+   <p id="heading">FARMERS: THE BACKBONE OF A COUNTRY</p>
+   <p>Welcome Dear FARMER!</p>
+   <div id="sub">
+        <br><br><br><br><br><br><br><br>
+    <form class="form-signin" action="/" method="POST">
+     <!-- <h1 class="form-signin-heading text-muted">Get yourself a Domain</h1> -->
+     <input type="text" class="form-control" name = "username" placeholder="Enter Username" required="" autofocus=""><br>
+     <input type="password" class="form-control" name = "kissan_id" placeholder="Enter Kissan-ID" required="" autofocus=""><br>
+     <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
+    <div class="col">
+            <a href="#" class="fb btn">
+              <i class="fa fa-facebook fa-fw"></i>Facebook
+            </a>&nbsp
+            <a href="#" class="google btn">
+              <i class="fa fa-google fa-fw"></i>Google+
+            </a>
+          </div>
+          <br><br><br>
+             </div>
+   </form>
+   <script type = "text/javascript" src="{{url_for('static',filename ='js/login.js')}}"></script>
+     <br><br><br><br><br><br><br><br>
+  </body>
+</html>
