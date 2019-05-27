@@ -3,4 +3,4 @@
 made with :heart: in IET-Makeathon , VIT Chennai 
 Our team secured the second position
 ## Glimpse
-[The Team]()
+![The Team](https://github.com/kunal768/IET-Makeathon/blob/master/public/iet.JPG) 
