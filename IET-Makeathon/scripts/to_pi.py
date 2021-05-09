@@ -1,5 +1,4 @@
 import serial
-import pymongo
 from flask import *
 import pymongo
 import datetime
@@ -11,7 +10,7 @@ import time
 ser = serial.Serial("COM27",9600)
 # client = pymongo.MongoClient("mongodb://kunal:sahni1@ds125578.mlab.com:25578/ietmakeathon")
 
-client = pymongo.MongoClient("mongodb+srv://admin:admin@cluster0.uxhm5.mongodb.net/test")
+client = pymongo.MongoClient("mongodb+srv://admin:admin@cluster0.uxhm5.mongodb.net/capstone?retryWrites=true&w=majority")
 # db = client['ietmakeathon']
 db = client['capstone']
 
