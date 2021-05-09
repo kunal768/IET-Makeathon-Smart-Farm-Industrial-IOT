@@ -9,8 +9,12 @@ import time
 
 #ser = serial.Serial("/dev/ttyUSB0",9600)
 ser = serial.Serial("COM27",9600)
-client = pymongo.MongoClient("mongodb://kunal:sahni1@ds125578.mlab.com:25578/ietmakeathon")
-db = client['ietmakeathon']
+# client = pymongo.MongoClient("mongodb://kunal:sahni1@ds125578.mlab.com:25578/ietmakeathon")
+
+client = pymongo.MongoClient("mongodb+srv://admin:admin@cluster0.uxhm5.mongodb.net/test")
+# db = client['ietmakeathon']
+db = client['capstone']
+
 
 raindb = db.rain_sensor
 tempdb = db.dht_sensor
