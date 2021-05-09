@@ -1,7 +1,7 @@
 import serial
 import pymongo
 from flask import *
-from flask_pymongo import PyMongo
+import pymongo
 import datetime
 import time
 
